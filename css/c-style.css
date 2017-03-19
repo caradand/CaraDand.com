@@ -1,5 +1,6 @@
 body {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
 	height: 100%;
 	width: 100%;
 }
@@ -10,10 +11,11 @@ p {
 }
 
 h1 {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	font-size: 30px;
 	color: #fff;
+	text-align: center;
 }
 
 .heading {
@@ -21,28 +23,28 @@ h1 {
 }
 
 h2 {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	font-size: 25px;
 	color: #fff;
 }
 
 h3 {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	font-size: 30px;
 	color: #fff;
 }
 
 h4 {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 	color: #fff;
 }
 
 h5 {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-style: italic;
 	font-size: 19px;
@@ -58,7 +60,7 @@ h5 {
 
 .main-header {
 	width: 100%;
-	height: 316px;
+	height: 125px;
 	background-color: #fff;
 	padding: 0px;
 }
@@ -99,19 +101,21 @@ h5 {
 
 .nav li {
     float: right;
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
 .nav a {
     display: block;
     text-decoration: none;
-    color: #666;
     font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+    color: #2b2b2b;
 }
 
 .nav a:hover {
     display: block;
-    color: #0067AB;
+    color: #0067ac;
 }
 
 .sliding-bar {
@@ -134,31 +138,63 @@ h5 {
  
 .sliding-bar:hover:after {
     width: 100%;
-    background: #0067ab;
+    background: #0067ac;
 }
 
 .desc {
 	width: 55%;
 	margin: 0 auto;
-	padding: 0px;
+	padding: 180px 0px 80px 0px;
 }
 
 .desc p {
-	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 35px;
 	line-height: 122%;
+	color: #FFFFFF;
+	text-align: center;
 }
 
 .content {
 	width: 100%;
-	min-height: 900px;
-	background-color: #000;
+	background-color:#000;
+
 }
 
 .content-area {
 	width: 100%;
-	min-height: 900px;
-	background-color: #000;
 	min-height: 100%;
+	background-color:#000;
+
+}
+
+.content-index {
+	width: 100%;
+	min-height: 800px;
+	background-image: url('../images/index-bg.JPG');
+
+}
+
+.content-index-area {
+	width: 100%;
+	min-height: 800px;
+	min-height: 100%;
+	background-image: url('../images/index-bg.JPG');
+
+}
+
+.content-about {
+	width: 100%;
+	background-image: url('../images/about.jpg');
+
+}
+
+.content-about-area {
+	width: 100%;
+	min-height: 100%;
+	background-image: url('../images/about.jpg');
+
 }
 
 
@@ -254,7 +290,7 @@ figure:hover img {
 }
  
 figcaption h3 {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	font-size: 30px;
     color: #fff;
@@ -267,7 +303,7 @@ figcaption h3 {
 }
  
 figcaption p {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
     padding: 10px 20px 10px 20px;
     margin-bottom: 0;
@@ -398,7 +434,7 @@ figcaption a:hover {
 .about-section {
 	width: 55%;
 	margin: 0px auto;
-	padding: 175px 0px 15px 0px;
+	padding: 100px 0px 75px 0px;
 }
 
 .about-section p {
@@ -406,30 +442,32 @@ figcaption a:hover {
 	line-height: 120%;
 	color: #fff;
 	margin: 25px auto;
+	text-align: center;
 }
 
 .more {
-	margin: 40px 0px 0px 0px;
+	margin: 0px;
 }
 
 .more p {
-	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400;
-    padding: 0px 20px 10px 20px;
+    padding: 0px 0px 10px 0px;
     font-size: 16px;
     text-align: center;
 }
 
 .more a {
     color: #fff;
-    border: 2.5px solid #1667a8;
-    padding: 10px 10px 6px 10px;
+    border: 3px solid #1667a8;
+    padding: 17px 19px 14px 19px;
     text-decoration: none;
+    background: #0067ac;
 }
 
 .more a:hover {
     color: #fff;
-    background: #1667a8;
+    background: rgba(0,103,172,0.3);
+
 }
 
 /* CONTACT */
