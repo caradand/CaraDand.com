@@ -1,5 +1,10 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 200;
 	height: 100%;
 	width: 100%;
@@ -11,8 +16,8 @@ p {
 }
 
 h1 {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
 	font-size: 30px;
 	color: #fff;
 	text-align: center;
@@ -54,8 +59,14 @@ h5 {
 #wrapper {
 	background-color: #fff;
 	width: 100%;
-	margin: 0 auto;
+	margin: 0px 0px 10px 0px;
 	padding: 0;
+
+	 min-height: 100%;
+
+  	/* Equal to height of footer */
+  	/* But also accounting for potential margin-bottom of last child */
+  	margin-bottom: -50px;
 }
 
 .main-header {
@@ -148,7 +159,7 @@ h5 {
 }
 
 .desc p {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	font-size: 35px;
 	line-height: 122%;
@@ -165,35 +176,39 @@ h5 {
 .content-area {
 	width: 100%;
 	min-height: 100%;
-	background-color:#636466;
+	background-color:#000000;
 
 }
 
 .content-index {
 	width: 100%;
-	min-height: 800px;
-	background-image: url('../images/index-bg.jpg');
-
 }
 
-.content-index-area {
-	width: 100%;
-	min-height: 800px;
-	min-height: 100%;
-	background-image: url('../images/index-bg.jpg');
+.cara {
+	background-image: url('../images/cara.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
+.about-header {
+	width: 100%;
+	height: 500px;
+	background-image: url('../images/cara-about.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .content-about {
 	width: 100%;
-	background-image: url('../images/about.jpg');
+	background-color: #fff;
 
 }
 
 .content-about-area {
 	width: 100%;
 	min-height: 100%;
-	background-image: url('../images/about.jpg');
+	background-color: #fff;
 
 }
 
@@ -256,16 +271,16 @@ figcaption {
     width: 100%;
     background: rgba(0,0,0,.7);
     color: #fff;
-    -webkit-transition: all .9s ease;
-    -moz-transition: all .9s ease;
-    -o-transition: all .9s ease;
-    -ms-transition: all .9s ease;
-    transition: all .9s ease;
-    -webkit-transition-delay: .5s;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: all .2s ease;
+    /*-webkit-transition-delay: .5s;
     -moz-transition-delay: .5s;
     -o-transition-delay: .5s;
     -ms-transition-delay: .5s;
-    transition-delay: .5s;
+    transition-delay: .5s;*/
 }
 
 figure img {
@@ -431,17 +446,53 @@ figcaption a:hover {
 
 /* ABOUT */
 
-.about-section {
+.about-desc {
 	width: 55%;
 	margin: 0px auto;
 	padding: 100px 0px 75px 0px;
 }
 
-.about-section p {
+.about-desc p {
 	font-size: 21.6px;
 	line-height: 120%;
 	color: #fff;
 	margin: 25px auto;
+	text-align: center;
+}
+
+.about-desc h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 50px;
+	color: #fff;
+	margin: 50px 0px 0px 0px;
+}
+
+.p-section {
+	width: 55%;
+	margin: 0px auto;
+	padding: 100px 0px 75px 0px;
+}
+
+.about-section {
+	margin:0 auto;
+	max-width: 800px;
+}
+
+.about-section p {
+	font-size: 19px;
+	line-height: 130%;
+	color: #000;
+	margin: 0px 50px;
+	text-align: center;
+}
+
+.about-section h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	color: #000;
+	margin: 80px 0px 40px 0px;
 	text-align: center;
 }
 
@@ -504,6 +555,11 @@ figcaption a:hover {
 .site a {
 	text-decoration: none;
 	color: #fff;
+}
+
+.footer,
+.push {
+  height: 50px;
 }
 
 footer {
