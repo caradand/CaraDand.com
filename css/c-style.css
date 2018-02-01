@@ -460,6 +460,7 @@ figcaption a:hover {
 	color: #fff;
 	margin: 25px auto;
 	text-align: center;
+	max-width: 500px;
 }
 
 .about-desc h1 {
