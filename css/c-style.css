@@ -454,7 +454,8 @@ figcaption a:hover {
 }
 
 .about-desc p {
-	font-size: 21.6px;
+	font-size: 22px;
+	font-weight: 500;
 	line-height: 120%;
 	color: #fff;
 	margin: 25px auto;
@@ -481,7 +482,7 @@ figcaption a:hover {
 }
 
 .about-section p {
-	font-size: 19px;
+	font-size: 17px;
 	line-height: 130%;
 	color: #000;
 	margin: 0px 50px;
