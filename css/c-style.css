@@ -450,6 +450,7 @@ figcaption a:hover {
 	width: 55%;
 	margin: 0px auto;
 	padding: 100px 0px 75px 0px;
+	text-shadow: 0.5px 2px 5px #00000044;
 }
 
 .about-desc p {
