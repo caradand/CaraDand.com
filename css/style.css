@@ -48,7 +48,7 @@ html { font-size: 15px; }
 body{ font-family: 'Lato', sans-serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:14px; color:#6f6f6f; font-weight: 400;line-height: 26px;}
 body, html { height: 100%; -moz-osx-font-smoothing: grayscale;}
 a, a:active, a:focus { color: #075B5A; text-decoration: none; }
-a:hover, a:active{color: #E4D3A3 !important; text-decoration: none;}
+a:hover, a:active{color: #75D3AE !important; text-decoration: none;}
 a:focus, a:active, button:focus, button:active,.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {outline: none; box-shadow: none; }
 img {max-width:100%; height:auto; }
 video { background-size: cover; display: table-cell; vertical-align: middle; width: 100%; }
@@ -2253,14 +2253,14 @@ nav.navbar.bootsnav .heder-menu-button .navbar-toggler {float: none; padding: 0;
 
 /* menu center logo */
 .menu-logo-center .navbar-left > li {float: none; display: inline-block; vertical-align: middle;}
-header nav.menu-logo-center .navbar-nav > li > a { margin: 0 20px;}
-header nav.menu-logo-center .navbar-nav > li:last-child a {margin-right: 20px}
+header nav.menu-logo-center .navbar-nav > li > a { margin: 0 25px;}
+header nav.menu-logo-center .navbar-nav > li:last-child a {margin-right: 25px}
 
 /*default pionter cursor*/
 header nav.navbar a:not([href]):not([tabindex]):focus, header nav.navbar a:not([href]):not([tabindex]):hover { cursor: pointer; }
 
 /* header navigation color and logo */
-header nav.navbar .navbar-nav > li > a, nav.navbar.bootsnav ul.nav > li > a{color: #FFFFFF; cursor: pointer;}
+header nav.navbar .navbar-nav > li > a, nav.navbar.bootsnav ul.nav > li > a{color: #E4D3A3; cursor: pointer; margin-top: 20px; font-size: 13px;}
 header nav.navbar.white-link .navbar-nav > li > a, nav.navbar.bootsnav.white-link ul.nav > li > a,
 header nav.navbar.white-link .header-social-icon a,  nav.navbar.bootsnav.white-link .header-social-icon a,
 header nav.navbar.white-link .header-searchbar a,  nav.navbar.bootsnav.white-link .header-searchbar a,
@@ -2436,11 +2436,11 @@ nav.navbar.bootsnav.navbar-default li.dropdown.simple-dropdown > ul.dropdown-men
 /* light transparent navigation */
 header.header-appear nav.header-light-transparent, header.sticky nav.navbar-fixed-top.header-light-transparent, header.sticky nav.navbar-scroll-fixed-top.header-light-transparent {background: rgba(255, 255, 255, 0.95); box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.6)}
 header.header-appear nav.header-light-transparent .separator-line-verticle-small, header.header-appear nav.header-light .separator-line-verticle-small {background: rgba(0, 0, 0, 0.4) }
-header.header-appear nav.header-light-transparent .header-social-icon a, header.header-appear nav.header-light .header-social-icon a, header.header-appear nav.header-light.white-link .header-social-icon a, header.header-appear nav.header-light-transparent.white-link .header-social-icon a, header.header-appear nav.header-light-transparent.white-link .heder-menu-button a, header.header-appear nav.header-light-transparent .header-searchbar a, header.header-appear nav.header-light .header-searchbar a, header.header-appear nav.header-light.white-link .header-searchbar a, header.header-appear nav.header-light-transparent.white-link .header-searchbar a {color: #232323}
-header.header-appear nav.bootsnav.header-light-transparent .navbar-nav > li > a, header.header-appear nav.bootsnav.header-light .navbar-nav > li > a {color: #232323;}
+header.header-appear nav.header-light-transparent .header-social-icon a, header.header-appear nav.header-light .header-social-icon a, header.header-appear nav.header-light.white-link .header-social-icon a, header.header-appear nav.header-light-transparent.white-link .header-social-icon a, header.header-appear nav.header-light-transparent.white-link .heder-menu-button a, header.header-appear nav.header-light-transparent .header-searchbar a, header.header-appear nav.header-light .header-searchbar a, header.header-appear nav.header-light.white-link .header-searchbar a, header.header-appear nav.header-light-transparent.white-link .header-searchbar a {color: #75D3AE}
+header.header-appear nav.bootsnav.header-light-transparent .navbar-nav > li > a, header.header-appear nav.bootsnav.header-light .navbar-nav > li > a {color: #75D3AE;}
 header.header-appear nav.header-light-transparent .header-searchbar, header.header-appear.header-light-transparent .header-social-icon, header.header-appear nav.header-light .header-searchbar, header.header-appear nav.header-light-transparent.white-link .header-social-icon, header.sticky nav.header-light-transparent .header-searchbar, header.sticky nav.header-light-transparent .header-social-icon, header.sticky nav.header-light .header-searchbar, header.sticky nav.header-light .header-social-icon {border-left: 1px solid rgba(0,0,0,0.25);}
-header.header-appear nav.nav-fixed-top.header-light-transparent.white-link .navbar-nav > li > a, header.header-appear nav.nav-fixed-top.header-light-transparent.white-link .header-social-icon a, header.header-appear nav.nav-fixed-top.header-light-transparent.white-link .header-searchbar a,header.header-appear nav.nav-scroll-fixed-top.header-light-transparent.white-link .navbar-nav > li > a, header.header-appear nav.nav-scroll-fixed-top.header-light-transparent.white-link .header-social-icon a, header.header-appear nav.nav-scroll-fixed-top.header-light-transparent.white-link .header-searchbar a {color: #232323}
-header.sticky nav.header-light-transparent .heder-menu-button .mobile-toggle span,header.sticky nav.header-light .heder-menu-button .mobile-toggle span {background: #232323;}
+header.header-appear nav.nav-fixed-top.header-light-transparent.white-link .navbar-nav > li > a, header.header-appear nav.nav-fixed-top.header-light-transparent.white-link .header-social-icon a, header.header-appear nav.nav-fixed-top.header-light-transparent.white-link .header-searchbar a,header.header-appear nav.nav-scroll-fixed-top.header-light-transparent.white-link .navbar-nav > li > a, header.header-appear nav.nav-scroll-fixed-top.header-light-transparent.white-link .header-social-icon a, header.header-appear nav.nav-scroll-fixed-top.header-light-transparent.white-link .header-searchbar a {color: #75D3AE}
+header.sticky nav.header-light-transparent .heder-menu-button .mobile-toggle span,header.sticky nav.header-light .heder-menu-button .mobile-toggle span {background: #75D3AE;}
 
 /* dark transparent navigation */
 header.header-appear nav.header-dark-transparent, header.sticky nav.navbar-fixed-top.header-dark-transparent, header.sticky nav.navbar-scroll-fixed-top.header-dark-transparent {background: rgba(23, 23, 23, 0.85);}
@@ -2459,7 +2459,7 @@ header.header-appear nav.header-light, header.sticky nav.navbar-fixed-top.header
 header.header-appear nav.header-dark, header.sticky nav.navbar-fixed-top.header-dark, header.sticky nav.navbar-scroll-fixed-top.header-dark {background-color: #000000;}
 
 /* collepsed menu icon */
-.navbar-default .navbar-toggler .icon-bar, header.sticky .navbar-default.header-light .navbar-toggler .icon-bar, header.sticky .navbar-default.header-light-transparent .navbar-toggler .icon-bar {background: #232323; }
+.navbar-default .navbar-toggler .icon-bar, header.sticky .navbar-default.header-light .navbar-toggler .icon-bar, header.sticky .navbar-default.header-light-transparent .navbar-toggler .icon-bar {background: #75D3AE; }
 .navbar-default.white-link .navbar-toggler .icon-bar, header.sticky .navbar-default.header-dark .navbar-toggler .icon-bar, header.sticky .navbar-default.header-dark-transparent .navbar-toggler .icon-bar {background: #fff; }
 
 /* hamburger menu */
