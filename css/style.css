@@ -269,6 +269,10 @@ a.text-very-light-gray-hover:hover {color:#ededed !important;}
 /* ===================================
     Custom
 ====================================== */
+.cara-sitting-in-chair {
+    background-position-x: right !important;    
+}
+
 section {padding: 130px 0; overflow: hidden;}
 section.big-section {padding:160px 0;}
 section.extra-big-section {padding:200px 0;}
