@@ -9,7 +9,7 @@
 	$budget=$_POST["budget"];
 	
 	// Email Receiver Address
-	$receiver="info@yourdomain.com";
+	$receiver="cara.dand@gmail.com";
 	$subject="Contact form details";
 
 	$message = "
